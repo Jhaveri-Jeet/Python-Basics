@@ -1,11 +1,11 @@
 # Lists are changable
 
-newList = ["Jeet", 45]
-names = ["Testing", 213, 45, "Jeet"]
+newList = ["Name", 45]
+names = ["Testing", 213, 45, "Name"]
 print(newList)
 
 # We cam use this 'in' keyword for strings also
-if "Jeet" in newList:
+if "Name" in newList:
     print("Yes")
 else:
     print("No")
@@ -13,7 +13,7 @@ else:
 # for loop to print the list data
 for name in names:
     print(name)
-    
+
 # We can make the lists on the go or with an expression or anything like that
 rangeList = [i for i in range(10)]
 print(rangeList)
