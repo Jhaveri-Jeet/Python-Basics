@@ -57,3 +57,23 @@ print(numbers)
 newNumbers = [200, 500, 1000, 8000]
 numbers.extend(newNumbers)
 print(numbers)
+
+
+names = []
+# for _ in range(1000):
+#     name = input("Enter your name: ")
+#     if "exit" in name:
+#         exit()
+#     names.append(name)
+#     print(names)
+
+# print("This is the final list: " + names)
+
+while True:
+    name = input("Enter your name: ")
+    if name.lower() == "exit":
+        break
+    names.append(name)
+    print(names)
+
+print(names)
