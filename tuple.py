@@ -19,8 +19,6 @@ tup = tuple(temp)
 print(tup)
 
 # After changing the tuple into an list we can perform all tasks which we can perform on an normal list
-
-
 # Methods of Tuple
 
 # to know the amount this number is been repeated
