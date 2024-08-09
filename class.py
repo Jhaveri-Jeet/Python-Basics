@@ -40,7 +40,7 @@ class Employee:
     # You can access the protected variable using _ variable name and it is an normal variable not provide any protection
     def showDetails(self):
         print(
-            f"This is the name of the employee : {self.name} \nThis is my Salary {self._Employee__salary}\n")
+            f"This is the name of the employee : {self.name} \nThis is my Salary {self.__salary}\n")
 
 
 class Programmer(Employee):
